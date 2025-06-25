@@ -1,12 +1,11 @@
 class Animal {
     // int age; // if age is added in this and this is inherited/implemented, then getters/setters for age should also be implemented
-    void speak() => print("animal speaking");
+    static void speak() => print("animal speaking");
 }
 
 class Bird implements Animal {
     // void speak() => print("bird chirping");
 
-    @override
     void speak() => print("bird chirping");
 }
 

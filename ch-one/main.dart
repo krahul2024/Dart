@@ -1,3 +1,5 @@
+import "class.dart";
+
 void main() { // this can also be main(List<String> args)
     String? name = 'my name';
     print(name);
@@ -7,6 +9,8 @@ void main() { // this can also be main(List<String> args)
     paramFunction();
     // paramFunction(true, 0); // not supported
     paramFunction(b: true);
+
+    Animal.speak();
 }
 
 bool isPositive(int x) {
